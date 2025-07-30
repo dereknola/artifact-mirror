@@ -9777,6 +9777,12 @@ sync:
 - source: quay.io/cilium/operator-aws:v1.9.8
   target: registry.suse.com/rancher/mirrored-cilium-operator-aws:v1.9.8
   type: image
+- source: quay.io/cilium/operator-aws:v1.18.0
+  target: docker.io/rancher/quay.io/cilium/operator-aws:v1.18.0
+  type: image
+- source: quay.io/cilium/operator-aws:v1.18.0
+  target: registry.suse.com/rancher/quay.io/cilium/operator-aws:v1.18.0
+  type: image
 - source: quay.io/cilium/operator-azure:v1.10.4
   target: docker.io/rancher/mirrored-cilium-operator-azure:v1.10.4
   type: image
