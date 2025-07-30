@@ -2202,6 +2202,10 @@ Images:
   - v1.9.4
   - v1.9.6
   - v1.9.8
+- SourceImage: quay.io/cilium/operator-generic
+  Tags:
+  - v1.18.0
+  TargetImageName: quay.io/cilium/operator-generic
 - SourceImage: quay.io/cilium/startup-script
   Tags:
   - 5e928f628f9fc644a1d2651d6cd6aecbde0e7acd
