@@ -8427,6 +8427,9 @@ sync:
 - source: quay.io/calico/typha:v3.30.2
   target: docker.io/rancher/mirrored-calico-typha:v3.30.2
   type: image
+- source: quay.io/calico/typha:v3.30.3
+  target: docker.io/rancher/mirrored-calico-typha:v3.30.3
+  type: image
 - source: quay.io/calico/typha:v3.18.1
   target: registry.suse.com/rancher/mirrored-calico-typha:v3.18.1
   type: image
@@ -8540,6 +8543,9 @@ sync:
   type: image
 - source: quay.io/calico/typha:v3.30.2
   target: registry.suse.com/rancher/mirrored-calico-typha:v3.30.2
+  type: image
+- source: quay.io/calico/typha:v3.30.3
+  target: registry.suse.com/rancher/mirrored-calico-typha:v3.30.3
   type: image
 - source: quay.io/cilium/certgen:v0.1.11
   target: docker.io/rancher/mirrored-cilium-certgen:v0.1.11
