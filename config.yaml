@@ -84,6 +84,7 @@ Artifacts:
   - 8.10.1
   - 8.12.1
   - 8.13.0
+  - 8.20.0
   - 8.9.1
 - SourceArtifact: directxman12/k8s-prometheus-adapter
   Tags:
