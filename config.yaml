@@ -106,6 +106,7 @@ Artifacts:
   - 9.57.0
   - 9.57.0-7.1
   - 9.57.0-8.1
+  - 9.57.0-9.1
   TargetRepositories:
   - registry.suse.com/rancher/charts
   - stgregistry.suse.com/rancher/charts
