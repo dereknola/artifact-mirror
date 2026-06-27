@@ -2001,6 +2001,7 @@ Artifacts:
   - v3.31.4
   - v3.31.5
   - v3.32.0
+  - v3.32.1
 - SourceArtifact: quay.io/calico/kube-controllers
   Tags:
   - v3.16.5
