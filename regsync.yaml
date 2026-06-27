@@ -13907,6 +13907,9 @@ sync:
 - source: quay.io/calico/kube-controllers:v3.32.0
   target: docker.io/rancher/mirrored-calico-kube-controllers:v3.32.0
   type: image
+- source: quay.io/calico/kube-controllers:v3.32.1
+  target: docker.io/rancher/mirrored-calico-kube-controllers:v3.32.1
+  type: image
 - source: quay.io/calico/kube-controllers:v3.13.4
   target: registry.suse.com/rancher/mirrored-calico-kube-controllers:v3.13.4
   type: image
@@ -14060,6 +14063,9 @@ sync:
 - source: quay.io/calico/kube-controllers:v3.32.0
   target: registry.suse.com/rancher/mirrored-calico-kube-controllers:v3.32.0
   type: image
+- source: quay.io/calico/kube-controllers:v3.32.1
+  target: registry.suse.com/rancher/mirrored-calico-kube-controllers:v3.32.1
+  type: image
 - source: quay.io/calico/kube-controllers:v3.13.4
   target: stgregistry.suse.com/rancher/mirrored-calico-kube-controllers:v3.13.4
   type: image
@@ -14212,6 +14218,9 @@ sync:
   type: image
 - source: quay.io/calico/kube-controllers:v3.32.0
   target: stgregistry.suse.com/rancher/mirrored-calico-kube-controllers:v3.32.0
+  type: image
+- source: quay.io/calico/kube-controllers:v3.32.1
+  target: stgregistry.suse.com/rancher/mirrored-calico-kube-controllers:v3.32.1
   type: image
 - source: quay.io/calico/node:v3.16.5
   target: docker.io/rancher/calico-node:v3.16.5
