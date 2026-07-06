@@ -22,6 +22,14 @@
     VersionFilter: ^13.0.1(.+)$
   Reviewers:
   - rancher/orbs
+- Name: appco-grafana-image-renderer
+  Registry:
+    Artifacts:
+    - SourceArtifact: dp.apps.rancher.io/containers/grafana-image-renderer
+    Latest: true
+    VersionFilter: ^5$
+  Reviewers:
+  - rancher/orbs
 - Name: appco-k8s-sidecar
   Registry:
     Artifacts:
