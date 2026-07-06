@@ -308,14 +308,6 @@
   Name: storage-livenessprobe
   Reviewers:
   - rancher/k3s
-- Name: traefik
-  Registry:
-    Artifacts:
-    - SourceArtifact: library/traefik
-    Latest: true
-    VersionFilter: ^2.[0-9]+.[0-9]+$
-  Reviewers:
-  - rancher/k3s
 - Name: traefik3
   Registry:
     Artifacts:
