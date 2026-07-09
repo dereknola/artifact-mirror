@@ -3289,7 +3289,7 @@ Artifacts:
 - SourceArtifact: registry.k8s.io/pause
   Tags:
   - "3.10"
-  - "3.10.2"
+  - 3.10.2
   - 3.4.1
   - "3.5"
   - "3.6"
