@@ -852,9 +852,6 @@ sync:
   target: stgregistry.suse.com/rancher/appco-grafana:13.0.1-4.1
   type: image
 - source: dp.apps.rancher.io/containers/grafana-image-renderer:5
-  target: docker.io/rancher/appco-grafana-image-renderer:5
-  type: image
-- source: dp.apps.rancher.io/containers/grafana-image-renderer:5
   target: registry.suse.com/rancher/appco-grafana-image-renderer:5
   type: image
 - source: dp.apps.rancher.io/containers/grafana-image-renderer:5

@@ -147,6 +147,9 @@ Artifacts:
 - SourceArtifact: dp.apps.rancher.io/containers/grafana-image-renderer
   Tags:
   - "5"
+  TargetRepositories:
+  - registry.suse.com/rancher
+  - stgregistry.suse.com/rancher
 - SourceArtifact: dp.apps.rancher.io/containers/k3k
   Tags:
   - 1.0.0-1.1
