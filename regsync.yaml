@@ -735,21 +735,6 @@ sync:
   target: stgregistry.suse.com/rancher/appco-alertmanager:0.31.1-15.2
   type: image
 - source: dp.apps.rancher.io/containers/curl:8.14.1-6.1
-  target: docker.io/rancher/appco-curl:8.14.1-6.1
-  type: image
-- source: dp.apps.rancher.io/containers/curl:8.14.1-7.1
-  target: docker.io/rancher/appco-curl:8.14.1-7.1
-  type: image
-- source: dp.apps.rancher.io/containers/curl:8.14.1-7.3
-  target: docker.io/rancher/appco-curl:8.14.1-7.3
-  type: image
-- source: dp.apps.rancher.io/containers/curl:8.14.1-8.1
-  target: docker.io/rancher/appco-curl:8.14.1-8.1
-  type: image
-- source: dp.apps.rancher.io/containers/curl:8.14.1-8.3
-  target: docker.io/rancher/appco-curl:8.14.1-8.3
-  type: image
-- source: dp.apps.rancher.io/containers/curl:8.14.1-6.1
   target: registry.suse.com/rancher/appco-curl:8.14.1-6.1
   type: image
 - source: dp.apps.rancher.io/containers/curl:8.14.1-7.1
