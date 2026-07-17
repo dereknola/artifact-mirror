@@ -134,6 +134,9 @@ Artifacts:
   - 8.14.1-7.3
   - 8.14.1-8.1
   - 8.14.1-8.3
+  TargetRepositories:
+  - registry.suse.com/rancher
+  - stgregistry.suse.com/rancher
 - SourceArtifact: dp.apps.rancher.io/containers/grafana
   Tags:
   - 12.1.1-2.2

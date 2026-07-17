@@ -6,14 +6,6 @@
     VersionFilter: ^0.31.1(.+)$
   Reviewers:
   - rancher/orbs
-- Name: appco-curl
-  Registry:
-    Artifacts:
-    - SourceArtifact: dp.apps.rancher.io/containers/curl
-    Latest: true
-    VersionFilter: ^8.14.1(.+)$
-  Reviewers:
-  - rancher/orbs
 - Name: appco-grafana
   Registry:
     Artifacts:
