@@ -23195,6 +23195,9 @@ sync:
 - source: registry.k8s.io/csi-vsphere/driver:v3.7.3
   target: docker.io/rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3
   type: image
+- source: registry.k8s.io/csi-vsphere/driver:v3.7.4
+  target: docker.io/rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.4
+  type: image
 - source: registry.k8s.io/csi-vsphere/driver:v3.8.0
   target: docker.io/rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.8.0
   type: image
@@ -23221,6 +23224,9 @@ sync:
   type: image
 - source: registry.k8s.io/csi-vsphere/driver:v3.7.3
   target: registry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3
+  type: image
+- source: registry.k8s.io/csi-vsphere/driver:v3.7.4
+  target: registry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.4
   type: image
 - source: registry.k8s.io/csi-vsphere/driver:v3.8.0
   target: registry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.8.0
@@ -23249,6 +23255,9 @@ sync:
 - source: registry.k8s.io/csi-vsphere/driver:v3.7.3
   target: stgregistry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.3
   type: image
+- source: registry.k8s.io/csi-vsphere/driver:v3.7.4
+  target: stgregistry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.7.4
+  type: image
 - source: registry.k8s.io/csi-vsphere/driver:v3.8.0
   target: stgregistry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-driver:v3.8.0
   type: image
@@ -23275,6 +23284,9 @@ sync:
   type: image
 - source: registry.k8s.io/csi-vsphere/syncer:v3.7.3
   target: docker.io/rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3
+  type: image
+- source: registry.k8s.io/csi-vsphere/syncer:v3.7.4
+  target: docker.io/rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.4
   type: image
 - source: registry.k8s.io/csi-vsphere/syncer:v3.8.0
   target: docker.io/rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.8.0
@@ -23303,6 +23315,9 @@ sync:
 - source: registry.k8s.io/csi-vsphere/syncer:v3.7.3
   target: registry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3
   type: image
+- source: registry.k8s.io/csi-vsphere/syncer:v3.7.4
+  target: registry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.4
+  type: image
 - source: registry.k8s.io/csi-vsphere/syncer:v3.8.0
   target: registry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.8.0
   type: image
@@ -23329,6 +23344,9 @@ sync:
   type: image
 - source: registry.k8s.io/csi-vsphere/syncer:v3.7.3
   target: stgregistry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.3
+  type: image
+- source: registry.k8s.io/csi-vsphere/syncer:v3.7.4
+  target: stgregistry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.7.4
   type: image
 - source: registry.k8s.io/csi-vsphere/syncer:v3.8.0
   target: stgregistry.suse.com/rancher/mirrored-cloud-provider-vsphere-csi-release-syncer:v3.8.0
